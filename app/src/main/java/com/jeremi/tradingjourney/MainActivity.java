@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     TextView displaya, detailsa;
     Button calc;
 
-    String d="",b="",c="";
+    String d="",b="",c="", e="";
     Double initialValue, percent, targetAmt, deci;
     int a;
 
