@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editInit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:hint="Initial Amount" />
+
+    <EditText
+        android:id="@+id/editPerc"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Percentage" />
+
+    <EditText
+        android:id="@+id/editTarget"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Target Amount" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#2F41A1"
+        android:text="CALCULATE"
+        android:id="@+id/btnCalc"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="15sp"
+        android:text="Number of Trades to reach Target:" />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/details"/>
+
+</LinearLayout>
